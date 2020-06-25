@@ -5,15 +5,11 @@
 * License: https://bootstrapmade.com/license/
 */
 
-// Wait for window load
-  $(window).load(function() {
-    // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");;
-  });
+
   
 !(function($) {
   "use strict";
-
+  
   // Nav Menu
   $(document).on('click', '.nav-menu a, .mobile-nav a', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
