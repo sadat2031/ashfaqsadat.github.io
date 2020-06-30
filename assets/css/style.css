@@ -1,9 +1,4 @@
-/**
-* Template Name: Personal - v2.3.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -206,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: blue;
 }
 
 .mobile-nav {
