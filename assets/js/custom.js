@@ -1,15 +1,9 @@
 
 
 // Loader 
-    $(document).ready(function() {
-    //Preloader
-    preloaderFadeOutTime = 500;
-    function hidePreloader() {
-    var preloader = $('.spinner-wrapper');
-    preloader.fadeOut(preloaderFadeOutTime);
-    }
-    hidePreloader();
-    });
+    $(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
 
 
 
