@@ -21,6 +21,10 @@ width: 100%;
 
 }
 
+.mobile-nav-toggle i{
+	color: #fff;
+}
+
 
 
 #header a{
@@ -80,4 +84,3 @@ bottom: 0;
 background-color: #000;
 z-index: 999999;
 }
- 
