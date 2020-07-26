@@ -1,3 +1,37 @@
+
+
+@media (max-width: 400px){
+
 #header a{
     color: #ffffff;
+}
+
+#map_area{
+	padding-left: 0px;
+	display: inline-flex;
+
+}
+#map_area iframe{
+width: 100%;
+}
+.bx-envelope{
+	padding-top: 10px;
+}
+
+
+
+
+}
+
+
+
+#header a{
+    color: #ffffff;
+}
+
+#map_area{
+	padding-left: 68px;
+}
+.bx-envelope{
+	padding-top: 10px;
 }
