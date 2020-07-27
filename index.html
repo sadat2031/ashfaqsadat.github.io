@@ -48,9 +48,10 @@
   ======================================================== -->
 </head>
 
-<body>  
+<body onload="loader()">  
   <!-- =======Loader Animation Starts========== -->
-   
+   <div id="loader_loading">
+   </div>
   
 
   <!-- =======Loader Animation End========== -->
@@ -808,6 +809,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+    var preloader = document.getElementById('loader_loading');
+    function loader(){
+      preloader.style.display= 'none';
+    }
+  </script>
   
 
     
