@@ -166,6 +166,17 @@
     items: 1
   });
 
+  // Gallery Carousel
+  $('.carousel').carousel({
+    autoplay: true,
+    dots: true,
+    loop : true,
+  });
+  //loader
+  $(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
+
   
 
 })(jQuery);
