@@ -48,6 +48,9 @@ padding-left: 0px;
 .bx-envelope{
 	padding-top: 10px;
 }
+.mobile-nav-toggle i {
+  color: #fff;
+}
 
 /*==Loader==*/
 #loader_loading{
