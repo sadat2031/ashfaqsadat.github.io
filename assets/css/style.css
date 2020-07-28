@@ -586,7 +586,7 @@ section .container {
 
 @media (max-width: 767px) {
   .testimonials {
-    margin: 30px 10px;
+    margin: auto;
   }
 }
 
